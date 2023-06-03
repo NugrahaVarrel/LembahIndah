@@ -15,7 +15,11 @@
                     <img src = "resource/icon.png" style="width:100px; height :100px;float:right; margin-top:1.5%;margin-left:0%;margin-bottom:1.5%">
                 </div>
                 <div style="float:left; margin-top:30px">
+<<<<<<< HEAD
+                    <b>INFOee Lembah Indah<br></b>
+=======
                     <b>INFO Lembah Indah<br></b>
+>>>>>>> 58959e93bec64a6a97efedb7887ab185f1779e0e
                     <a href="index.php" class="isi">Tentang Kami<br></a>
                     <a href="index.php" class="isi">Cara Berbelanja<br></a>
                 </div>
