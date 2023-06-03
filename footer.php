@@ -20,7 +20,7 @@
                     <a href="index.php" class="isi">Cara Berbelanja<br></a>
                 </div>
                 <div style="float:left; margin-top:30px">
-                    <b>TEMUKAN KAMI DIgff<br></b>
+                    <b>TEMUKAN KAMI DI<br></b>
                     <a href="" class="isi">
                         <img src = "resource/ig.png" style="width:35px; height :35px;float:left; margin-top:1.5%;margin-left:10%;margin-bottom:1.5%">
                     </a>
