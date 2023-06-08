@@ -1,86 +1,98 @@
 * {
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-}
-body {
-  margin: 0px;
-  padding: 0px;
-  background: #f6c1bc;
-  font-family: Sans-serif;
-}
-.wrapper {
-  width: 100%;
-  margin: auto;
-  position: relative;
-  background-color: #ffffff;
-  height: 10%;
-}
-
-nav {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  position: sticky;
-  line-height: 60px;
-  top: 0;
-  z-index: 1;
-}
-nav ul {
-  list-style-type: none;
-  overflow: hidden;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-nav ul li {
-  float: left;
+body {
+  font-family: Sans-serif;
 }
 
-nav ul li a {
-  color: black;
-  font-weight: bold;
-  font-size: 15px;
-  padding: 0px 19px 0px 19px;
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed; /* Menggunakan position: fixed agar navbar tetap berada di atas halaman saat di-scroll */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
-}
-li:hover,
-li:focus-within {
-  background: #ffe9cf;
-  cursor: pointer;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 
-li:focus-within a {
-  outline: none;
+.logo {
+  display: flex;
+  align-items: center;
 }
 
-ul li ul {
-  background: orange;
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #f2c14e;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: orange;
   visibility: hidden;
   opacity: 0;
-  min-width: 5rem;
-  position: absolute;
-  transition: all 0.5s ease;
-  left: 5rem;
+  min-width: 10rem;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
   display: none;
 }
 
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
+.menu li:hover > .dropdown,
+.menu li:focus-within > .dropdown,
+.dropdown:hover {
   visibility: visible;
   opacity: 1;
   display: block;
 }
 
-ul li ul li {
+.dropdown li {
   clear: both;
   width: 100%;
+  padding: 10px;
 }
+
+.logout {
+  margin-left: auto;
+}
+
 .buttonlogout {
   border: none;
   color: white;
@@ -92,21 +104,23 @@ ul li ul li {
   margin: 2px 1px;
   transition-duration: 0.4s;
   cursor: pointer;
-}
-.button5 {
   background-color: white;
   color: black;
   border: 2px solid #555555;
 }
+
+.buttonlogout:hover,
+.buttonlogout:focus {
+  background-color: #555555;
+  color: white;
+}
+
 .button5 a {
   color: black;
   transition-duration: 0.4s;
 }
+
 .button5 a:hover {
-  background-color: #555555;
-  color: white;
-}
-.button5:hover {
   background-color: #555555;
   color: white;
 }
