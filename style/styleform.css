@@ -11,7 +11,7 @@ body{
 }
 
 .main_wrapper {
-  background: #ffffff;
+  background-color: rgba(159, 173, 187, 1);
   margin: auto;
   margin-top: 5%;
   width: 60%;
