@@ -12,7 +12,7 @@
         <div class="footer">
             <div style="background: white;">
                 <div style="float:left; width:37%;">
-                    <img src = "resource/icon.png" style="width:100px; height :100px;float:right; margin-top:1.5%;margin-left:0%;margin-bottom:1.5%">
+                    <img src = "resource/icon-lembahindah.png" style="width:60px; height :60px;float:right; margin-top:1.5%;margin-left:0%;margin-bottom:1.5%">
                 </div>
                 <div style="float:left; margin-top:30px">
                     <b>INFO Lembah Indah<br></b>
@@ -33,7 +33,7 @@
     </center>
     <center>
         <div class="box">
-            <c style="color:white;font-size:13px;margin-right:6%;margin-top:50px;"> Copyright @ 2022 Baby-Needs. All Right Reserved. </c>
+            <c style="color:white;font-size:13px;margin-right:6%;margin-top:50px;"> Copyright @ 2023 Lembah Indah Campground. All Right Reserved. </c>
         </div>
     </center>
 </footer>

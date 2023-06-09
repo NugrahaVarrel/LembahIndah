@@ -25,7 +25,7 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a href="#footer">Contact</a></li>
-                <li class="nav-item"><a href="pesanan.php">Penyewaan</a></li>
+                <!--<li class="nav-item"><a href="pesanan.php">Penyewaan</a></li>-->
             </ul>
             <div class="logout">
                 <?php 
