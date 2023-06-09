@@ -5,18 +5,20 @@
     }
 ?>
 <?php include 'koneksi.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin | Dashboard</title>
+    <link rel="stylesheet" href="style/styledashboard1.css">
+    <title>Document</title>
 </head>
 <body>
-    <?php include ('header_adm.php'); ?>
-    <div class="main">
+    <?php 
+        include('header_adm.php');
+    ?>
+
+<div class="main">
         <?php 
             if (@$_GET['status']!==NULL) {
             $status = $_GET['status'];
@@ -79,67 +81,5 @@
                 </table>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <h1 class="text-center mt-4">Dashboard</h1>
-
-    <div id="main-content" class="container allContent-section py-4">
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="mt-4 mb-2 mx-auto">
-                        <a href="data_member.php"> <!-- link member page -->
-                            <img src="../resource/img-member.png" style="width: 160px; height: auto" alt="">
-                    </div>
-                            <h3 class="text-center mb-4" style="color:black;">Data Member</h3>
-                        </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="mt-4 mb-2 mx-auto">
-                        <a href="data_admin.php"> <!-- link admin page -->
-                            <img src="../resource/img-admin.png" style="width: 160px; height: auto" alt="">
-                    </div>
-                            <h3 class="text-center mb-4" style="color:black;">Data Admin</h3>
-                        </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="mt-4 mb-2 mx-auto">
-                        <a href="data_produk.php"> <!-- link produk page -->
-                            <img src="../resource/img-produk.png" style="width: 160px; height: auto" alt="">
-                    </div>
-                            <h3 class="text-center mb-4" style="color:black;">Data Produk</h3>
-                        </a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="mt-4 mb-2 mx-auto">
-                        <a href="data_pesanan.php"> <!-- link pesanan page -->
-                            <img src="../resource/img-pesanan.png" style="width: 160px; height: auto" alt="">
-                    </div>
-                            <h3 class="text-center mb-4" style="color:black;">Data Pesanan</h3>
-                        </a>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    
 </body>
 </html>

@@ -1,20 +1,11 @@
 * {
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 body {
-  margin: 0px;
-  padding: 0px;
-  background: #f6c1bc;
   font-family: Sans-serif;
-}
-.wrapper {
-  width: 100%;
-  margin: auto;
-  position: relative;
-  background-color: #ffffff;
-  height: 8%;
 }
 
 nav {
@@ -22,38 +13,70 @@ nav {
   margin: auto;
   display: flex;
   position: sticky;
-  line-height: 60px;
   top: 0;
   z-index: 1;
-}
-nav ul {
-  list-style-type: none;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
+  background-color: rgba(100, 131, 112, 1);
 }
 
-nav ul li {
-  float: left;
+.menu {
+  display: flex;
+  align-items: center;
 }
 
-nav ul li a {
+.mainmenubtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.titiktiga{
+  width: 50%;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 10rem;
+  transition: all 0.3s ease;
+  margin-top: 2rem;
+}
+
+.dropdown a {
+  display: block;
   color: black;
   font-weight: bold;
   font-size: 15px;
-  padding: 0px 20px 0px 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
+.dropdown a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
 }
 
 .logo {
-  margin-left: 14%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  
 }
 
 .logout {
-  margin-top:5px;
+  padding: 5px 20px;
 }
 
 .buttonlogout {
@@ -69,19 +92,13 @@ nav ul li a:hover {
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
 .button5 {
   background-color: white;
   color: black;
   border: 2px solid #555555;
 }
-.button5 a {
-  color: black;
-  transition-duration: 0.4s;
-}
-.button5 a:hover {
-  background-color: #555555;
-  color: white;
-}
+
 .button5:hover {
   background-color: #555555;
   color: white;

@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/styleheader_adm.css">
 </head>
 <body>
     <nav>
-        <div class="wrapper">
-            <div class="menu" style="float:left">
-                <ul>
-                    <li><a href="dashboard.php">Home</a></li>
-                </ul>
+        <div class="menu">
+            <button class="mainmenubtn">
+                <img src="resource/titiktiga.png" alt="titik tiga" class="titiktiga">
+            </button>
+            <div class="dropdown">
+                <a href="dashboard1.php">Dashboard</a>
+                <a href="data_member.php">Data Member</a>
+                <a href="data_admin.php">Data Admin</a>
+                <a href="data_produk.php">Data Produk</a>
+                <a href="data_pesanan.php">Data Pesanan</a>
             </div>
-            <div class="logo"style="float:left; width:37%;">
-                <img src = "../resource/logo.png" style="width:180px; height :49px;float:right; margin-top:2%;margin-left:0%;margin-bottom:1.5%">
-            </div>
-            <div class="logout">
-            <a href="logout_admin.php"><button class="buttonlogout button5">Logout</button></a>
-            </div>
+        </div>
+        <div class="logo">
+            <img src="resource/icon-lembahindah.png" alt="Logo" class="logo-image">
+        </div>
+        <div class="logout">
+            <a href="logout_admin.php" class="buttonlogout button5">Logout</a>
         </div>
     </nav>
 </body>
