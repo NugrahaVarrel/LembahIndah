@@ -21,6 +21,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styledetail.css">
     <title>Document</title>
 </head>
 <body>
@@ -33,7 +34,7 @@
         
         <div class="upper_wrapper">
             <div class="left_wrapper">
-            <   h1 id="product_name"><?php echo $data['nama']."<br>"; ?></h1>
+            <h1 id="product_name"><?php echo $data['nama']."<br>"; ?></h1>
                 <img src="admin/produk/<?php echo $data['foto']; ?>" alt="Photo" id="product_photo">
             </div>
             <div class="right_wrapper">
@@ -85,13 +86,10 @@
                 </div>
             </div>
         </div>
-        <div class="lower_wrapper"><br>
-            <p><?php echo $data['deskripsi1']; ?></p>
-        </div>
     </div>
     <?php endwhile; ?>
     <section id="footer">
-    <?php include('footer.php');?>
+        <?php include('footer.php');?>
     </section>
 </body>
 </html>
