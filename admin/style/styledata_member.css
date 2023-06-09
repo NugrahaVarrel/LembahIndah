@@ -4,21 +4,21 @@
     padding: 0px;
   }
 
-.main_wrapper {
+.main {
     width: 90%;
     background: #ffffff;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     border-radius: 10px;
 }
 
-.main_wrapper h1 {
+.main h1 {
     font-size: 25px;
     margin-left: 2.5%;
     padding-top: 2%;
 }
 
-.table_wrapper {
+.table {
     width: 95%;
     margin: auto;
     margin-top: 2%;
@@ -26,25 +26,25 @@
 }
 
 table {
-    width: 100%;
-    margin-bottom: 2%;
-}
-
-table, th, tr, td{
-    border: 1px solid;
+    font-family: arial, sans-serif;
     border-collapse: collapse;
-}
-
-button {
-    width: 100px;
-    height: 30px;
-    
-}
-
-button a {
-    color: inherit;
-    font: inherit;
-}
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  th{
+    background-color: rgba(255, 255, 255, 1)
+  }
+  td, th {
+    border: 1px solid #b69e9c;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  tr{
+    background-color: #dddddd;
+  }
 
 
 

@@ -43,6 +43,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styleupdate_produk.css">
     <title>Document</title>
 </head>
 <body>
@@ -63,22 +64,11 @@
                     <option value="hipseat">Hip Seat</option>
                 </select><br><br>
                 <input type="text" name="nama" value="<?php echo $data['nama'];  ?>" placeholder="Masukkan Nama Produk"><br><br>
-                <select name="umur" id="umur" placeholder="Untuk Umur">
-                    <option value="0.5">0 - 06 bulan</option>
-                    <option value="1">06 - 12 bulan</option>
-                    <option value="1.5">01 - 1,5 tahun</option>
-                    <option value="2">1,5 - 02 tahun</option>
-                    <option value="3">02 - 03 tahun</option>
-                    <option value="4">03 - 04 tahun</option>
-                </select><br><br>
                 <input type="number" name="harga" value="<?php echo $data['harga'];  ?>" placeholder="Harga"><br><br>
                 <p>Foto Produk:</p><br>
-                <img src="produk/<?php echo $data['foto']; ?>" style="width: 200px;" alt="">
+                <img src="produk/<?php echo $data['foto']; ?>" style="width: 200px;" alt=""><br>
                 <input type="number" name="stok" value="<?php echo $data['stok'];  ?>" placeholder="Stok"><br><br>
                 <textarea name="deskripsi1" id="deskripsi1" placeholder="Deskripsi 1" value="<?php echo $data['deskripsi1'];  ?>" cols="30" rows="7"><?php echo htmlspecialchars($data['deskripsi1']); ?></textarea>
-                <textarea name="deskripsi2" id="deskripsi2" placeholder="Deskripsi 2" value="<?php echo $data['deskripsi2'];  ?>" cols="30" rows="7"><?php echo htmlspecialchars($data['deskripsi2']); ?></textarea>
-                <textarea name="deskripsi3" id="deskripsi3" placeholder="Deskripsi 3" value="<?php echo $data['deskripsi3'];  ?>" cols="30" rows="7"><?php echo htmlspecialchars($data['deskripsi3']); ?></textarea>
-                <textarea name="deskripsi4" id="deskripsi4" placeholder="Deskripsi 4" value="<?php echo $data['deskripsi4'];  ?>" cols="30" rows="7"><?php echo htmlspecialchars($data['deskripsi4']); ?></textarea>
             <?php endwhile; ?><br>
             <input id="submit" type="submit" name="simpan" value="Simpan Produk"><br>
         </form>

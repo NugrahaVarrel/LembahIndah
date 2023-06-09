@@ -35,17 +35,17 @@ nav {
 
 .dropdown {
   position: absolute;
-  background-color: orange;
+  background-color: rgb(0, 0, 0);
   visibility: hidden;
   opacity: 0;
   min-width: 10rem;
   transition: all 0.3s ease;
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 
 .dropdown a {
   display: block;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 15px;
   padding: 10px 20px;

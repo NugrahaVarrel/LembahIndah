@@ -44,7 +44,7 @@ include 'koneksi.php';
                 $data = mysqli_fetch_assoc($sql);
                 $_SESSION["username"] = $_POST['username'];
                 $_SESSION["id"] = $data["id"];
-                echo "<meta http-equiv=refresh content=0;URL='dashboard.php'>";
+                echo "<meta http-equiv=refresh content=0;URL='dashboard1.php'>";
             } else {
                 echo "<p>Login Gagal!</p>";
                 echo "<meta http-equiv=refresh content=2;URL='login.php'>";

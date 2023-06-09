@@ -18,7 +18,7 @@
             $status = 'err';
           }
           if ($status=='ok') {
-            header('location: data_pesanan.php');
+            header('location: dashboard1.php');
           }
       }  
   }

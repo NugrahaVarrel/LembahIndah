@@ -17,7 +17,6 @@
                 <a href="data_member.php">Data Member</a>
                 <a href="data_admin.php">Data Admin</a>
                 <a href="data_produk.php">Data Produk</a>
-                <a href="data_pesanan.php">Data Pesanan</a>
             </div>
         </div>
         <div class="logo">

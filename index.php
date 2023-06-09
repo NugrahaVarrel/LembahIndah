@@ -25,12 +25,13 @@
             <p class="desk">
              Rasakan pengalaman berkemah yang nyaman dengan fasilitas lengkap!
             </p>
-            <a href="#" class="cta">Beli Sekarang</a>
+            <a href="#kategori" class="sewa">Sewa Sekarang</a>
+
         </main>
     </section>
 
     <div class="img">
-        <section class="cat">
+        <section class="cat" id="kategori">
             <h1 style="padding-top: 100px; text-align: center; padding-bottom: 60px; color:">Kategori Barang</h1>
             <div class="kategori">
                 <div class="gambar1">
