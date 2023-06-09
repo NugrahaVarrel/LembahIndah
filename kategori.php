@@ -32,27 +32,34 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include('header.php');?>
-    <div id="cdm" class="boxcdr">
-        <section class="cdr">
-            <img src="resource/icon_tenda.png" alt="" class="icon">
-            <span class="kategori">Kategori Barang</span>
-        </section>
-    </div>
-    <br>
-    <?php while($data = mysqli_fetch_array($result)){?>
-        <div class="flexbox1">
-            <div class="nama"><?php echo $data['nama']; ?></div>
-            <img src="admin/produk/<?php echo $data['foto']; ?>">
-            <br><br>
-            <div class="lain3">
-                <?php echo $data['harga']; ?>/minggu
-            </div>
-            <br>
-            <a href="<?php echo "detail_barang.php?id_produk=".$data['id_produk']; ?>"><button class="tbl-biru">Sewa</button></a>                 
+    <div>
+        <?php include('header.php');?>
+        <div id="cdm" class="boxcdr">
+            <section class="cdr">
+                <img src="resource/icon_tenda.png" alt="" class="icon">
+                <span class="kategori">Kategori Barang</span>
+            </section>
         </div>
-    <?php } ?>
-<br><br><br><br><br><br><br><br><br>
+        <br>
+        <?php while($data = mysqli_fetch_array($result)){
+            ?>
+            <div class="flexbox1">
+                <div class="nama"><?php echo $data['nama']; ?></div>
+                <img src="admin/produk/<?php echo $data['foto']; ?>">
+                <br><br>
+                <div class="lain3">
+                    <?php echo $data['harga']; ?>/minggu
+                </div>
+                <br>
+                <a href="<?php echo "detail_barang.php?id_produk=".$data['id_produk']; ?>"><button class="tbl-biru">Sewa</button></a>                 
+            </div>
+        <?php } ?>
+    <br><br><br><br><br><br><br><br><br>
+    </div>
+    <a href="pesanan.php" class="keranjang-link">
+        <img src="resource/keranjang.png" alt="Keranjang" class="keranjang-img">
+    </a>
+    
 <section id="footer">
     <?php include('footer.php');?>
 </section> 

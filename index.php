@@ -84,7 +84,7 @@
             </div>
             <br><br><br><br>
         </section>
-        <a href="keranjang.php" class="keranjang-link">
+        <a href="pesanan.php" class="keranjang-link">
              <img src="resource/keranjang.png" alt="Keranjang" class="keranjang-img">
         </a>
     </div>
