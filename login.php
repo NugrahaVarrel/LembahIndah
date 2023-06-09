@@ -9,45 +9,19 @@ include 'koneksi.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stylelogin.css">
     <link rel="icon" href="resource/icon.png">
-    <title>Masuk | Lembah Indah </title>
-    <style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 400px;
-            text-align: center;
-        }
-        .logo {
-            width: 250px;
-        }
-        .form-user {
-            width: 100%;
-            margin-bottom: 10px;
-        }
-        .tombol-login {
-            width: 100%;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Masuk | Lembah Indah</title>
 </head>
-<body style="width: 100%">
-    <div class="container-fluid py-1" style="background-color: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-11 text-center">
-                    <img src="resource/logo.png" alt="" style="width: 250px">
-                </div>
-            </div>
-        </div>
-    </div>
-
+<body>
+    <nav>
+        <h1>USER</h1>
+    </nav>
     <div class="container">
-        <!-- <img src="resource/logo.png" alt="Logo" class="logo"> -->
+        <div>
+            <img src="admin/resource/user.png" alt="orang" class="icon">
+            <p style="color:white; text-align: center;">Login Into Your Account</p>
+        </div>
         <h2>Masuk</h2>
         <form method="post">
             <input type="text" name="email" class="form-user" placeholder="E-mail">
