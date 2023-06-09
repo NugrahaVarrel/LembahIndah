@@ -30,11 +30,12 @@
             <div class="logout">
                 <?php 
                 if(isset($_SESSION['id'])){
-                    echo $_SESSION['email'];
+                    echo '<span class="email">' . $_SESSION['email'] . '</span>';
                 }
                 ?>
                 <a href="logout.php" class="buttonlogout button5">Logout</a>
             </div>
+
         </div>
     </nav>
 </body>
