@@ -48,7 +48,7 @@
                 <img src="admin/produk/<?php echo $data['foto']; ?>">
                 <br><br>
                 <div class="lain3">
-                    <?php echo $data['harga']; ?>/minggu
+                    <?php echo $data['harga']; ?>/Minggu
                 </div>
                 <br>
                 <a href="<?php echo "detail_barang.php?id_produk=".$data['id_produk']; ?>"><button class="tbl-biru">Sewa</button></a>                 

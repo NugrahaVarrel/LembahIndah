@@ -11,7 +11,7 @@
     <nav>
         <div class="wrapper">
             <div class="logo">
-                <img src="resource/logo.png" alt="Logo" />
+                <img src="resource/icon-lembahindah.png" alt="Logo" />
             </div>
             <ul class="menu">
                 <li class="nav-item"><a href="index.php">Home</a></li>

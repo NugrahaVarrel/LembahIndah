@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resource/icon.png">
     <link rel="stylesheet" href="style/styleindex.css">
-    <title>Document</title>
+    <title>Lembah Indah Campground</title>
 </head>
 <body>
     <?php 
@@ -67,7 +67,7 @@
                     <button>
                         <span>Dimana Lokasi Lembah Indah Campground?</span>
                     </button>
-                    <p>Lembah Indah Campground berada di Jl. Trawas - Mojosari, Sukosari, Kec. Trawas, Kabupaten Mojokerto, Jawa Timur 61375.</p>
+                    <p>Lembah Indah Campground berada di Jalan Raya Trawas - Mojosari, Sukosari, Kec. Trawas, Kabupaten Mojokerto, Jawa Timur 66666.</p>
                 </div>
                 <div class="question">
                     <button>
