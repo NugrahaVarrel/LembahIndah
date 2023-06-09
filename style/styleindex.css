@@ -219,3 +219,14 @@ html{
   padding: 0px 15px 30px 15px;
   margin-top: 20px;
 }
+
+.keranjang-link {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.keranjang-img {
+  width: 65px;
+  height: 65px;
+}

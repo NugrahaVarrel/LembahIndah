@@ -114,5 +114,15 @@ body {
   margin-top: 40px;
 }
 
+.keranjang-link {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.keranjang-img {
+  width: 65px;
+  height: 65px;
+}
 
 

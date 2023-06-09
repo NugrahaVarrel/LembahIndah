@@ -13,7 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resource/icon.png">
     <link rel="stylesheet" href="style/styleindex.css">
+<<<<<<< HEAD
     <title>Lembah Indah CampGround</title>
+=======
+    <title>Lembah Indah Campground</title>
+>>>>>>> a5aceed2bc779cf9058b22a5d0053aa307792341
 </head>
 <body>
     <?php 
@@ -30,60 +34,63 @@
     </section>
 
     <div class="img">
-    <section class="cat">
-        <h1 style="padding-top: 100px; text-align: center; padding-bottom: 60px; color:">Kategori Barang</h1>
-        <div class="kategori">
-            <div class="gambar1">
-                <a href="<?php echo "kategori.php?kategori=tenda" ?>">
-                <img src="resource/icon_tenda.png" alt="" style="width: 190px;">
-                <h2 style="padding-top: 20px;">Tenda</h2>
-                </a>
+        <section class="cat">
+            <h1 style="padding-top: 100px; text-align: center; padding-bottom: 60px; color:">Kategori Barang</h1>
+            <div class="kategori">
+                <div class="gambar1">
+                    <a href="<?php echo "kategori.php?kategori=tenda" ?>">
+                    <img src="resource/icon_tenda.png" alt="" style="width: 190px;">
+                    <h2 style="padding-top: 20px;">Tenda</h2>
+                    </a>
+                </div>
+                <div class="gambar2">
+                    <a href="<?php echo "kategori.php?kategori=memasak" ?>">
+                    <img src="resource/icon_memasak.png" alt="" style="width: 190px;">
+                    <h2 style="padding-top: 20px;">Memasak</h2>
+                    </a>
+                </div>
+                <div class="gambar3">
+                    <a href="<?php echo "kategori.php?kategori=pencahayaan" ?>">
+                    <img src="resource/icon_pencahayaan.png" alt="" style="width: 190px;">
+                    <h2 style="padding-top: 20px;">Pencahayaan</h2>
+                    </a>
+                </div>
+                <div class="gambar4">
+                    <a href="<?php echo "kategori.php?kategori=makanan" ?>">
+                    <img src="resource/icon_makanan.png" alt="" style="width: 190px;">
+                    <h2 style="padding-top: 20px;">Makanan</h2>
+                    </a>
+                </div>
             </div>
-            <div class="gambar2">
-                <a href="<?php echo "kategori.php?kategori=memasak" ?>">
-                <img src="resource/icon_memasak.png" alt="" style="width: 190px;">
-                <h2 style="padding-top: 20px;">Memasak</h2>
-                </a>
-            </div>
-            <div class="gambar3">
-                <a href="<?php echo "kategori.php?kategori=pencahayaan" ?>">
-                <img src="resource/icon_pencahayaan.png" alt="" style="width: 190px;">
-                <h2 style="padding-top: 20px;">Pencahayaan</h2>
-                </a>
-            </div>
-            <div class="gambar4">
-                <a href="<?php echo "kategori.php?kategori=makanan" ?>">
-                <img src="resource/icon_makanan.png" alt="" style="width: 190px;">
-                <h2 style="padding-top: 20px;">Makanan</h2>
-                </a>
-            </div>
-        </div>
-    </section>
+        </section>
     
-    <section class="FAQ">
-        <h1 class="title">Frequently Asked Question (FAQ)</h1>
-        <div class="questions-container">
-            <div class="question">
-                <button>
-                    <span>Apa itu Baby-Needs?</span>
-                </button>
-                <p>Baby-Needs merupakan website penyewaan barang bayi bagi ibu rumah tangga yang tidak ingin membeli barang kebutuhan bayi. Baby-Needs hadir karena kebutuhan bayi yang dipakai hanya tempo waktu tertentu saja, oleh karena itu daripada membeli barang kebutuhan bayi untuk waktu tertentu, mending sewa aja.</p>
+        <section class="FAQ">
+            <h1 class="title">Frequently Asked Question (FAQ)</h1>
+            <div class="questions-container">
+                <div class="question">
+                    <button>
+                        <span>Dimana Lokasi Lembah Indah Campground?</span>
+                    </button>
+                    <p>Lembah Indah Campground berada di Jalan Raya Trawas - Mojosari, Sukosari, Kec. Trawas, Kabupaten Mojokerto, Jawa Timur 66666.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <span>Apa Saja Tata Tertib yang Berlaku di Lembah Indah Campground?</span>
+                    </button>
+                    <p><b>Tata Tertib yang berlaku di Lembah Indah Campground yaitu, </b>pengunjung dilarang membawa minuman beralkohol dan obat-obatan terlarang, dilarang membuat kegaduhan, dilarang merusak tumbuhan yang ada di area perkemahan, wajib membuang sampah pada tempatnya.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <span>Harga Sewa Perlengkapan Camping untuk Berapa Lama?</span>
+                    </button>
+                    <p>Harga sewa peralatan camping yang tertera berlaku per-hari.</p>
+                </div>
             </div>
-            <div class="question">
-                <button>
-                    <span>Apa syarat untuk menyewa Baby-Needs?</span>
-                </button>
-                <p>Syaratnya cukup mudah, yaitu hanya membutuhkan 1 KTP saja untuk dapat menyewa barang kebutuhan bayi di Baby-Needs.</p>
-            </div>
-            <div class="question">
-                <button>
-                    <span>Wilayah pengiriman mencakup daerah mana saja?</span>
-                </button>
-                <p>Untuk saat ini, Baby-Needs hanya dapat melayani di wilayah Surabaya dan Sidoarjo, untuk kedepannya Baby-Needs akan dapat beroperasi di seluruh wilayah Indonesia.</p>
-            </div>
-        </div>
-        <br><br><br><br>
-    </section>
+            <br><br><br><br>
+        </section>
+        <a href="pesanan.php" class="keranjang-link">
+             <img src="resource/keranjang.png" alt="Keranjang" class="keranjang-img">
+        </a>
     </div>
 
 <script src="script.js"></script>
