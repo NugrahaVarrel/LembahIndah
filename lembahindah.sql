@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 31, 2023 at 08:39 AM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.2.0
+-- Generation Time: Jun 12, 2023 at 03:32 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,7 +31,7 @@ CREATE TABLE `admin` (
   `id` int(10) NOT NULL,
   `username` varchar(20) NOT NULL,
   `password` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `admin`
@@ -55,14 +55,14 @@ CREATE TABLE `produk` (
   `stok` int(10) NOT NULL,
   `tanggal_upload` timestamp NOT NULL DEFAULT current_timestamp(),
   `deskripsi1` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `produk`
 --
 
 INSERT INTO `produk` (`id_produk`, `kategori`, `nama`, `harga`, `foto`, `stok`, `tanggal_upload`, `deskripsi1`) VALUES
-(4, 'tenda', 'tenda untuk 2 orang', 50000, 'tenda2orang.PNG', 10, '2022-06-14 13:12:11', 'tenda untuk 2 orang hanya selapis, jadi saat hujan direkomendasikan untuk menyewa flysheet'),
+(4, 'stroller', 'tenda untuk 2 orang', 50000, 'tenda2orang.PNG', 8, '2022-06-14 13:12:11', 'tenda untuk 2 orang hanya selapis, jadi saat hujan direkomendasikan untuk menyewa flysheet'),
 (5, 'tenda', 'tenda untuk 4 orang', 75000, 'tenda4orang.PNG', 10, '2022-06-14 13:12:17', 'tenda untuk orang mempunyai lapisan double, jadi saat hujan tidak memerlukan flysheet'),
 (6, 'tenda', 'tenda untuk 6 orang', 100000, 'tenda6orang.PNG', 10, '2022-06-14 13:12:23', 'tenda untuk 6 orang ini mempunyai lapisan double, jika hujan tidak memerlukan flysheet dan juga memiliki matras didalamnya'),
 (10, 'tenda', 'flysheet', 10000, 'flysheet.PNG', 10, '2022-06-29 13:55:27', 'flysheet untuk melindungi tenda saat terjadinya hujan'),
@@ -100,7 +100,7 @@ CREATE TABLE `transaksi` (
   `status` varchar(30) NOT NULL,
   `tgl_diambil` date DEFAULT NULL,
   `tgl_dikembalikan` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `transaksi`
@@ -125,20 +125,19 @@ CREATE TABLE `user` (
   `nohp` varchar(50) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `user`
 --
 
 INSERT INTO `user` (`id`, `nama`, `alamat`, `nohp`, `email`, `password`) VALUES
-(1, 'aldo p', 'Banyu Urip', '081234', 'aldopradana3@gmail.com', 'aldo123'),
-(2, 'ALDO PRADANA ARIANDO', 'Kapas Madya', '0986', 'aldopradana79@yahoo.com', 'aldo123'),
-(5, 'josep', 'jagir', '0987754', 'josep@gmail.com', 'josep123'),
-(6, 'joespyanto', 'klitih', '081234', 'josepyanto@yahoo.com', 'josepyanto'),
-(7, 'Nugraha Varrel Kusuma', 'kebraon', '0821312', 'naew@gmail.com', '12345'),
-(8, 'Nugraha Varrel Kusuma', 'simo', '2131', 'nugrahavarel@gmail.com', '12345'),
-(9, 'varel', 'kebraon', '082132222131', 'nugrahavarel@gmail.com', '12345');
+(1, 'Nugraha Varrel Kusuma', 'kebraon', '0821312', 'naew@gmail.com', '12345'),
+(2, 'Nugraha Varrel Kusuma', 'simo', '2131', 'nugrahavarel@gmail.com', '12345'),
+(3, 'varel', 'kebraon', '082132222131', 'nugrahavarel@gmail.com', '12345'),
+(4, 'Yuaini', 'Mojokerto', '098754567', 'yuaini2016@gmail.com', 'Yuaini06'),
+(5, 'shinta', 'jalan melati', '0897654323', 'shinta@gmail.com', '123'),
+(6, 'shintadwi', 'jalan mawar', '08865432', 'shintadwi@gmail.com', '123456');
 
 --
 -- Indexes for dumped tables
@@ -194,7 +193,7 @@ ALTER TABLE `transaksi`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
