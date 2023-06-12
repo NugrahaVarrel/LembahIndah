@@ -55,15 +55,7 @@
         <form action="update_produk.php" method="post" enctype="multipart/form-data">
             <?php while($data = mysqli_fetch_array($result)): ?>
                 <input type="hidden" value="<?php echo $data['id_produk']; ?>" name="id_produk"/>
-                <p>Pilih Kategori Produk:</p>
-                <select name="kategori" id="kategori" placeholder="Kategori Produk">
-                    <option value="stroller">Stroller</option>
-                    <option value="babybox">Baby Box</option>
-                    <option value="babybathub">Baby Bathub</option>
-                    <option value="toys">Toys</option>
-                    <option value="carseat">Car Seat</option>
-                    <option value="hipseat">Hip Seat</option>
-                </select><br><br>
+                
                 <input type="text" name="nama" value="<?php echo $data['nama'];  ?>" placeholder="Masukkan Nama Produk"><br><br>
                 <input type="number" name="harga" value="<?php echo $data['harga'];  ?>" placeholder="Harga"><br><br>
                 <p>Foto Produk:</p><br>
