@@ -1,0 +1,85 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background-image: url("../resource/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  /* Navigation Styling */
+  .nav {
+    background-color: rgba(100, 131, 112, 1);
+    padding: 10px;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+  }
+  
+  .nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Page Heading Styling */
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  
+  /* Form Styling */
+  .formUpdate {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
