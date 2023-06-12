@@ -4,6 +4,11 @@
     padding: 0px;
   }
 
+body{
+  background-image: url(../resource/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .main_wrapper {
     width: 90%;
     background: #ffffff;
