@@ -14,7 +14,7 @@
             </button>
             <div class="dropdown">
                 <a href="dashboard1.php">Dashboard</a>
-                <a href="data_member.php">Data Member</a>
+                <a href="data_member.php">Data Customer</a>
                 <a href="data_admin.php">Data Admin</a>
                 <a href="data_produk.php">Data Produk</a>
             </div>

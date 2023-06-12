@@ -14,6 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/styledata_produk.css">
+    <link rel="icon" href="resource/icon-lembahindah.png">
     <title>Document</title>
 </head>
 <body>
@@ -69,5 +70,6 @@
             <button><a href="upload_produk.php">Tambah Data +</a></button>
         </div>
     </div>
+    <br><br><br><br><br>
 </body>
 </html>
